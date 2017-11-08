@@ -1,0 +1,5 @@
+temp_celsius=float(input('Qual a temperatura em Celsius? '))
+temp_kelvin=round(temp_celsius+273.15, 2)
+temp_fahrenheit=round(temp_celsius*9/5+32, 2)
+print(temp_celsius, ' ºC = ', temp_kelvin, ' K')
+print(temp_celsius, ' ºC = ', temp_fahrenheit, ' ºF')
